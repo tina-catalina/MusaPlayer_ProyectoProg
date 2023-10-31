@@ -105,9 +105,9 @@
             this.guna2Button1.Font = new System.Drawing.Font("Satoshi Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
             this.guna2Button1.HoverState.Font = new System.Drawing.Font("Satoshi Medium", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button1.Location = new System.Drawing.Point(23, 552);
+            this.guna2Button1.Location = new System.Drawing.Point(8, 552);
             this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(205, 50);
+            this.guna2Button1.Size = new System.Drawing.Size(235, 50);
             this.guna2Button1.TabIndex = 28;
             this.guna2Button1.Text = "Cerrar sesión";
             this.guna2Button1.UseTransparentBackground = true;
@@ -130,11 +130,11 @@
             this.btnSetting.Font = new System.Drawing.Font("Satoshi Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSetting.ForeColor = System.Drawing.Color.White;
             this.btnSetting.HoverState.Font = new System.Drawing.Font("Satoshi Medium", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSetting.Location = new System.Drawing.Point(23, 479);
+            this.btnSetting.Location = new System.Drawing.Point(8, 479);
             this.btnSetting.Name = "btnSetting";
-            this.btnSetting.Size = new System.Drawing.Size(205, 50);
+            this.btnSetting.Size = new System.Drawing.Size(235, 50);
             this.btnSetting.TabIndex = 27;
-            this.btnSetting.Text = "Preferencias";
+            this.btnSetting.Text = "Configuraciones";
             this.btnSetting.UseTransparentBackground = true;
             this.btnSetting.Click += new System.EventHandler(this.btnSetting_Click);
             // 
@@ -155,11 +155,11 @@
             this.btnComunidad.Font = new System.Drawing.Font("Satoshi Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnComunidad.ForeColor = System.Drawing.Color.White;
             this.btnComunidad.HoverState.Font = new System.Drawing.Font("Satoshi Medium", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnComunidad.Location = new System.Drawing.Point(23, 373);
+            this.btnComunidad.Location = new System.Drawing.Point(8, 373);
             this.btnComunidad.Name = "btnComunidad";
-            this.btnComunidad.Size = new System.Drawing.Size(205, 50);
+            this.btnComunidad.Size = new System.Drawing.Size(235, 50);
             this.btnComunidad.TabIndex = 26;
-            this.btnComunidad.Text = "Comunidad";
+            this.btnComunidad.Text = "Mi perfil";
             this.btnComunidad.UseTransparentBackground = true;
             this.btnComunidad.Click += new System.EventHandler(this.btnComunidad_Click);
             // 
@@ -180,9 +180,9 @@
             this.btnSubirMusica.Font = new System.Drawing.Font("Satoshi Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSubirMusica.ForeColor = System.Drawing.Color.White;
             this.btnSubirMusica.HoverState.Font = new System.Drawing.Font("Satoshi Medium", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSubirMusica.Location = new System.Drawing.Point(23, 300);
+            this.btnSubirMusica.Location = new System.Drawing.Point(8, 300);
             this.btnSubirMusica.Name = "btnSubirMusica";
-            this.btnSubirMusica.Size = new System.Drawing.Size(205, 50);
+            this.btnSubirMusica.Size = new System.Drawing.Size(235, 50);
             this.btnSubirMusica.TabIndex = 25;
             this.btnSubirMusica.Text = "Subir música";
             this.btnSubirMusica.UseTransparentBackground = true;
@@ -205,9 +205,9 @@
             this.btnMiMusica.Font = new System.Drawing.Font("Satoshi Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMiMusica.ForeColor = System.Drawing.Color.White;
             this.btnMiMusica.HoverState.Font = new System.Drawing.Font("Satoshi Medium", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMiMusica.Location = new System.Drawing.Point(23, 227);
+            this.btnMiMusica.Location = new System.Drawing.Point(8, 227);
             this.btnMiMusica.Name = "btnMiMusica";
-            this.btnMiMusica.Size = new System.Drawing.Size(205, 50);
+            this.btnMiMusica.Size = new System.Drawing.Size(235, 50);
             this.btnMiMusica.TabIndex = 24;
             this.btnMiMusica.Text = "Mi música";
             this.btnMiMusica.UseTransparentBackground = true;
