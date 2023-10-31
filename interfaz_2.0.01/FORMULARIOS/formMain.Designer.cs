@@ -118,8 +118,8 @@
             this.btnSetting.Animated = true;
             this.btnSetting.BackColor = System.Drawing.Color.Transparent;
             this.btnSetting.BorderRadius = 10;
-            this.btnSetting.CustomImages.HoveredImage = ((System.Drawing.Image)(resources.GetObject("resource.HoveredImage1")));
-            this.btnSetting.CustomImages.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
+            this.btnSetting.CustomImages.HoveredImage = global::interfaz_2._0._01.Properties.Resources.settingsWhite;
+            this.btnSetting.CustomImages.Image = global::interfaz_2._0._01.Properties.Resources.settingsBlue;
             this.btnSetting.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnSetting.CustomImages.ImageSize = new System.Drawing.Size(30, 30);
             this.btnSetting.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -143,8 +143,8 @@
             this.btnComunidad.Animated = true;
             this.btnComunidad.BackColor = System.Drawing.Color.Transparent;
             this.btnComunidad.BorderRadius = 10;
-            this.btnComunidad.CustomImages.HoveredImage = ((System.Drawing.Image)(resources.GetObject("resource.HoveredImage2")));
-            this.btnComunidad.CustomImages.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image2")));
+            this.btnComunidad.CustomImages.HoveredImage = ((System.Drawing.Image)(resources.GetObject("resource.HoveredImage1")));
+            this.btnComunidad.CustomImages.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
             this.btnComunidad.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnComunidad.CustomImages.ImageSize = new System.Drawing.Size(35, 35);
             this.btnComunidad.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -168,8 +168,8 @@
             this.btnSubirMusica.Animated = true;
             this.btnSubirMusica.BackColor = System.Drawing.Color.Transparent;
             this.btnSubirMusica.BorderRadius = 10;
-            this.btnSubirMusica.CustomImages.HoveredImage = ((System.Drawing.Image)(resources.GetObject("resource.HoveredImage3")));
-            this.btnSubirMusica.CustomImages.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image3")));
+            this.btnSubirMusica.CustomImages.HoveredImage = global::interfaz_2._0._01.Properties.Resources.subirmusicaWhite;
+            this.btnSubirMusica.CustomImages.Image = global::interfaz_2._0._01.Properties.Resources.subirmusicaBlue;
             this.btnSubirMusica.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnSubirMusica.CustomImages.ImageSize = new System.Drawing.Size(30, 30);
             this.btnSubirMusica.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -193,8 +193,8 @@
             this.btnMiMusica.Animated = true;
             this.btnMiMusica.BackColor = System.Drawing.Color.Transparent;
             this.btnMiMusica.BorderRadius = 10;
-            this.btnMiMusica.CustomImages.HoveredImage = ((System.Drawing.Image)(resources.GetObject("resource.HoveredImage4")));
-            this.btnMiMusica.CustomImages.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image4")));
+            this.btnMiMusica.CustomImages.HoveredImage = ((System.Drawing.Image)(resources.GetObject("resource.HoveredImage2")));
+            this.btnMiMusica.CustomImages.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image2")));
             this.btnMiMusica.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnMiMusica.CustomImages.ImageSize = new System.Drawing.Size(30, 30);
             this.btnMiMusica.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
