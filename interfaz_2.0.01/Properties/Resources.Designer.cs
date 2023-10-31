@@ -103,6 +103,16 @@ namespace interfaz_2._0._01.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap backubtton {
+            get {
+                object obj = ResourceManager.GetObject("backubtton", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap btnBack {
             get {
                 object obj = ResourceManager.GetObject("btnBack", resourceCulture);
