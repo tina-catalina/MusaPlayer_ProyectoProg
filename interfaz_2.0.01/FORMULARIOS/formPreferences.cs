@@ -16,5 +16,6 @@ namespace interfaz_2._0._01
         {
             InitializeComponent();
         }
+
     }
 }

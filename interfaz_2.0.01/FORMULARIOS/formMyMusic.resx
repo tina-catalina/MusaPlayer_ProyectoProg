@@ -133,10 +133,10 @@
     <value>True</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="guna2ImageButton5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnDelete_MyMusic.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EAAACxABrSO9dQAABP9JREFUeF7tnU1yW2UQRWV7EYypgl2QCbAeYDdE8lqArIKfNVAZpAJyZvA6dQZU
+        DwAACw8BkvkDpQAABP9JREFUeF7tnU1yW2UQRWV7EYypgl2QCbAeYDdE8lqArIKfNVAZpAJyZvA6dQZU
         7kkDsa205O9UndG9V+73AkmYoN1isVgsFovF4mNzd7P/+nh1uD1e73/d/OPu+vDX/7E2b7dX+8PdzfOv
         +NjFv/Fm9/3n2wt88e4Lva/bL8RPd7vbz/gxC+O4239xd71/aS/wYdy/rJ/Bj1v8k7vd4dPtJf2eL+2h
         3X6B178JyfZbxA/+wh7e+u2IH7so6g9ce1GP6s3hS378ov62Yy/peH04vrnef/N6d/sJ1f9Mbbbtt/UZ
@@ -160,10 +160,10 @@
         N/G/E+qmt7dtN67vGFssFovFYrFYLBaLxWKxWDwuu93fu3D0vkb8hSwAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="guna2ImageButton4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnEdit_MyMusic.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DQAACw0B7QfALAAACPVJREFUeF7tnVuMJHUZxf/dHY13ffB+T7zGKxjvoqB4QaMoxBBFHyBEjLKrJoYQ
+        DAAACwwBP0AiyAAACPVJREFUeF7tnVuMJHUZxf/dHY13ffB+T7zGKxjvoqB4QaMoxBBFHyBEjLKrJoYQ
         LzFqDCYmalZXZ6p6cJN9xBcT4yVRnnjUB4mQhQBBjKyohL3M9GVAbM+pOj0z23Oqumen/z21U/VLTmDn
         fP/6vvqquupf1TU1oaGhoaGhoaGhoSFnFJInDdrJgX4ruWXQTo/328npfju9B/8+0g/JhQpriMGgk7wX
         zX8AjR8VCRviV9hIT9eQhnmBvfwK7O3rrumTQtztq6H7HA1t2C29TvdybIBHXLOLhI1w51pInqdFNJwt

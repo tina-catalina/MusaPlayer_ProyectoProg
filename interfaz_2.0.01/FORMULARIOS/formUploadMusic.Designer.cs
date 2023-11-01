@@ -33,8 +33,8 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.gradienteEfecto_UploadMusic = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2GradientTileButton1 = new Guna.UI2.WinForms.Guna2GradientTileButton();
-            this.guna2CheckBox2 = new Guna.UI2.WinForms.Guna2CheckBox();
-            this.guna2CheckBox1 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.checkPrivate_UploadMusic = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.checkPublic_UploadMusic = new Guna.UI2.WinForms.Guna2CheckBox();
             this.guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2ImageButton6 = new Guna.UI2.WinForms.Guna2ImageButton();
             this.label2 = new System.Windows.Forms.Label();
@@ -42,7 +42,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.buscarMyMusic = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txtbxNameSong_UploadMusic = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
             this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Artista = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -51,6 +51,7 @@
             this.Ruta = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.noc = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.pictureBoxMostrarCancion_UploadMusica = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
             this.gradienteEfecto_UploadMusic.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMostrarCancion_UploadMusica)).BeginInit();
@@ -60,16 +61,17 @@
             // 
             this.gradienteEfecto_UploadMusic.BackColor = System.Drawing.Color.Transparent;
             this.gradienteEfecto_UploadMusic.Controls.Add(this.guna2GradientTileButton1);
-            this.gradienteEfecto_UploadMusic.Controls.Add(this.guna2CheckBox2);
-            this.gradienteEfecto_UploadMusic.Controls.Add(this.guna2CheckBox1);
+            this.gradienteEfecto_UploadMusic.Controls.Add(this.checkPrivate_UploadMusic);
+            this.gradienteEfecto_UploadMusic.Controls.Add(this.checkPublic_UploadMusic);
             this.gradienteEfecto_UploadMusic.Controls.Add(this.guna2ImageButton1);
             this.gradienteEfecto_UploadMusic.Controls.Add(this.guna2ImageButton6);
             this.gradienteEfecto_UploadMusic.Controls.Add(this.label2);
             this.gradienteEfecto_UploadMusic.Controls.Add(this.label3);
             this.gradienteEfecto_UploadMusic.Controls.Add(this.label1);
             this.gradienteEfecto_UploadMusic.Controls.Add(this.guna2TextBox2);
+            this.gradienteEfecto_UploadMusic.Controls.Add(this.guna2TextBox3);
             this.gradienteEfecto_UploadMusic.Controls.Add(this.guna2TextBox1);
-            this.gradienteEfecto_UploadMusic.Controls.Add(this.buscarMyMusic);
+            this.gradienteEfecto_UploadMusic.Controls.Add(this.txtbxNameSong_UploadMusic);
             this.gradienteEfecto_UploadMusic.Controls.Add(this.guna2DataGridView1);
             this.gradienteEfecto_UploadMusic.Controls.Add(this.pictureBoxMostrarCancion_UploadMusica);
             this.gradienteEfecto_UploadMusic.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -100,43 +102,43 @@
             this.guna2GradientTileButton1.TabIndex = 29;
             this.guna2GradientTileButton1.Text = "S U B I R";
             // 
-            // guna2CheckBox2
+            // checkPrivate_UploadMusic
             // 
-            this.guna2CheckBox2.AutoSize = true;
-            this.guna2CheckBox2.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(33)))), ((int)(((byte)(67)))));
-            this.guna2CheckBox2.CheckedState.BorderRadius = 5;
-            this.guna2CheckBox2.CheckedState.BorderThickness = 0;
-            this.guna2CheckBox2.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(33)))), ((int)(((byte)(67)))));
-            this.guna2CheckBox2.Font = new System.Drawing.Font("Satoshi Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2CheckBox2.ForeColor = System.Drawing.Color.White;
-            this.guna2CheckBox2.Location = new System.Drawing.Point(276, 292);
-            this.guna2CheckBox2.Name = "guna2CheckBox2";
-            this.guna2CheckBox2.Size = new System.Drawing.Size(79, 24);
-            this.guna2CheckBox2.TabIndex = 28;
-            this.guna2CheckBox2.Text = "Privado";
-            this.guna2CheckBox2.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(1)))), ((int)(((byte)(154)))));
-            this.guna2CheckBox2.UncheckedState.BorderRadius = 5;
-            this.guna2CheckBox2.UncheckedState.BorderThickness = 0;
-            this.guna2CheckBox2.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.checkPrivate_UploadMusic.AutoSize = true;
+            this.checkPrivate_UploadMusic.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(33)))), ((int)(((byte)(67)))));
+            this.checkPrivate_UploadMusic.CheckedState.BorderRadius = 5;
+            this.checkPrivate_UploadMusic.CheckedState.BorderThickness = 0;
+            this.checkPrivate_UploadMusic.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(33)))), ((int)(((byte)(67)))));
+            this.checkPrivate_UploadMusic.Font = new System.Drawing.Font("Satoshi Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkPrivate_UploadMusic.ForeColor = System.Drawing.Color.White;
+            this.checkPrivate_UploadMusic.Location = new System.Drawing.Point(276, 292);
+            this.checkPrivate_UploadMusic.Name = "checkPrivate_UploadMusic";
+            this.checkPrivate_UploadMusic.Size = new System.Drawing.Size(79, 24);
+            this.checkPrivate_UploadMusic.TabIndex = 28;
+            this.checkPrivate_UploadMusic.Text = "Privado";
+            this.checkPrivate_UploadMusic.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(1)))), ((int)(((byte)(154)))));
+            this.checkPrivate_UploadMusic.UncheckedState.BorderRadius = 5;
+            this.checkPrivate_UploadMusic.UncheckedState.BorderThickness = 0;
+            this.checkPrivate_UploadMusic.UncheckedState.FillColor = System.Drawing.Color.Transparent;
             // 
-            // guna2CheckBox1
+            // checkPublic_UploadMusic
             // 
-            this.guna2CheckBox1.AutoSize = true;
-            this.guna2CheckBox1.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(33)))), ((int)(((byte)(67)))));
-            this.guna2CheckBox1.CheckedState.BorderRadius = 5;
-            this.guna2CheckBox1.CheckedState.BorderThickness = 0;
-            this.guna2CheckBox1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(33)))), ((int)(((byte)(67)))));
-            this.guna2CheckBox1.Font = new System.Drawing.Font("Satoshi Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2CheckBox1.ForeColor = System.Drawing.Color.White;
-            this.guna2CheckBox1.Location = new System.Drawing.Point(187, 292);
-            this.guna2CheckBox1.Name = "guna2CheckBox1";
-            this.guna2CheckBox1.Size = new System.Drawing.Size(79, 24);
-            this.guna2CheckBox1.TabIndex = 28;
-            this.guna2CheckBox1.Text = "Público";
-            this.guna2CheckBox1.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(1)))), ((int)(((byte)(154)))));
-            this.guna2CheckBox1.UncheckedState.BorderRadius = 5;
-            this.guna2CheckBox1.UncheckedState.BorderThickness = 0;
-            this.guna2CheckBox1.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.checkPublic_UploadMusic.AutoSize = true;
+            this.checkPublic_UploadMusic.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(33)))), ((int)(((byte)(67)))));
+            this.checkPublic_UploadMusic.CheckedState.BorderRadius = 5;
+            this.checkPublic_UploadMusic.CheckedState.BorderThickness = 0;
+            this.checkPublic_UploadMusic.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(33)))), ((int)(((byte)(67)))));
+            this.checkPublic_UploadMusic.Font = new System.Drawing.Font("Satoshi Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkPublic_UploadMusic.ForeColor = System.Drawing.Color.White;
+            this.checkPublic_UploadMusic.Location = new System.Drawing.Point(187, 292);
+            this.checkPublic_UploadMusic.Name = "checkPublic_UploadMusic";
+            this.checkPublic_UploadMusic.Size = new System.Drawing.Size(79, 24);
+            this.checkPublic_UploadMusic.TabIndex = 28;
+            this.checkPublic_UploadMusic.Text = "Público";
+            this.checkPublic_UploadMusic.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(1)))), ((int)(((byte)(154)))));
+            this.checkPublic_UploadMusic.UncheckedState.BorderRadius = 5;
+            this.checkPublic_UploadMusic.UncheckedState.BorderThickness = 0;
+            this.checkPublic_UploadMusic.UncheckedState.FillColor = System.Drawing.Color.Transparent;
             // 
             // guna2ImageButton1
             // 
@@ -243,7 +245,7 @@
             this.guna2TextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.guna2TextBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Location = new System.Drawing.Point(38, 134);
+            this.guna2TextBox1.Location = new System.Drawing.Point(38, 105);
             this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PasswordChar = '\0';
@@ -253,32 +255,32 @@
             this.guna2TextBox1.Size = new System.Drawing.Size(346, 44);
             this.guna2TextBox1.TabIndex = 4;
             // 
-            // buscarMyMusic
+            // txtbxNameSong_UploadMusic
             // 
-            this.buscarMyMusic.BackColor = System.Drawing.Color.Transparent;
-            this.buscarMyMusic.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(0)))), ((int)(((byte)(73)))));
-            this.buscarMyMusic.BorderRadius = 20;
-            this.buscarMyMusic.BorderThickness = 0;
-            this.buscarMyMusic.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.buscarMyMusic.DefaultText = "";
-            this.buscarMyMusic.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.buscarMyMusic.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.buscarMyMusic.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.buscarMyMusic.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.buscarMyMusic.FillColor = System.Drawing.Color.GhostWhite;
-            this.buscarMyMusic.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.buscarMyMusic.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.buscarMyMusic.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.buscarMyMusic.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.buscarMyMusic.Location = new System.Drawing.Point(38, 47);
-            this.buscarMyMusic.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.buscarMyMusic.Name = "buscarMyMusic";
-            this.buscarMyMusic.PasswordChar = '\0';
-            this.buscarMyMusic.PlaceholderForeColor = System.Drawing.Color.DimGray;
-            this.buscarMyMusic.PlaceholderText = "Nombre de la canción";
-            this.buscarMyMusic.SelectedText = "";
-            this.buscarMyMusic.Size = new System.Drawing.Size(346, 44);
-            this.buscarMyMusic.TabIndex = 4;
+            this.txtbxNameSong_UploadMusic.BackColor = System.Drawing.Color.Transparent;
+            this.txtbxNameSong_UploadMusic.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(0)))), ((int)(((byte)(73)))));
+            this.txtbxNameSong_UploadMusic.BorderRadius = 20;
+            this.txtbxNameSong_UploadMusic.BorderThickness = 0;
+            this.txtbxNameSong_UploadMusic.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtbxNameSong_UploadMusic.DefaultText = "";
+            this.txtbxNameSong_UploadMusic.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtbxNameSong_UploadMusic.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtbxNameSong_UploadMusic.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtbxNameSong_UploadMusic.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtbxNameSong_UploadMusic.FillColor = System.Drawing.Color.GhostWhite;
+            this.txtbxNameSong_UploadMusic.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtbxNameSong_UploadMusic.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.txtbxNameSong_UploadMusic.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtbxNameSong_UploadMusic.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtbxNameSong_UploadMusic.Location = new System.Drawing.Point(38, 47);
+            this.txtbxNameSong_UploadMusic.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtbxNameSong_UploadMusic.Name = "txtbxNameSong_UploadMusic";
+            this.txtbxNameSong_UploadMusic.PasswordChar = '\0';
+            this.txtbxNameSong_UploadMusic.PlaceholderForeColor = System.Drawing.Color.DimGray;
+            this.txtbxNameSong_UploadMusic.PlaceholderText = "Nombre de la canción";
+            this.txtbxNameSong_UploadMusic.SelectedText = "";
+            this.txtbxNameSong_UploadMusic.Size = new System.Drawing.Size(346, 44);
+            this.txtbxNameSong_UploadMusic.TabIndex = 4;
             // 
             // guna2DataGridView1
             // 
@@ -407,6 +409,33 @@
             this.pictureBoxMostrarCancion_UploadMusica.TabStop = false;
             this.pictureBoxMostrarCancion_UploadMusica.UseTransparentBackground = true;
             // 
+            // guna2TextBox3
+            // 
+            this.guna2TextBox3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2TextBox3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(0)))), ((int)(((byte)(73)))));
+            this.guna2TextBox3.BorderRadius = 20;
+            this.guna2TextBox3.BorderThickness = 0;
+            this.guna2TextBox3.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox3.DefaultText = "";
+            this.guna2TextBox3.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox3.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox3.FillColor = System.Drawing.Color.GhostWhite;
+            this.guna2TextBox3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.guna2TextBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.guna2TextBox3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox3.Location = new System.Drawing.Point(38, 163);
+            this.guna2TextBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2TextBox3.Name = "guna2TextBox3";
+            this.guna2TextBox3.PasswordChar = '\0';
+            this.guna2TextBox3.PlaceholderForeColor = System.Drawing.Color.DimGray;
+            this.guna2TextBox3.PlaceholderText = "Nombre del artista";
+            this.guna2TextBox3.SelectedText = "";
+            this.guna2TextBox3.Size = new System.Drawing.Size(346, 44);
+            this.guna2TextBox3.TabIndex = 4;
+            // 
             // formUploadMusic
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -433,7 +462,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Album;
         private System.Windows.Forms.DataGridViewTextBoxColumn Visibilidad;
         private System.Windows.Forms.DataGridViewTextBoxColumn Ruta;
-        private Guna.UI2.WinForms.Guna2TextBox buscarMyMusic;
+        private Guna.UI2.WinForms.Guna2TextBox txtbxNameSong_UploadMusic;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
@@ -442,8 +471,9 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn noc;
         private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton1;
         private System.Windows.Forms.Label label3;
-        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox1;
-        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox2;
+        private Guna.UI2.WinForms.Guna2CheckBox checkPublic_UploadMusic;
+        private Guna.UI2.WinForms.Guna2CheckBox checkPrivate_UploadMusic;
         private Guna.UI2.WinForms.Guna2GradientTileButton guna2GradientTileButton1;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox3;
     }
 }
