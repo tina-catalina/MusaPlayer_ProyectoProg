@@ -48,6 +48,7 @@
             this.pnlcontenedorImagenRegister = new Guna.UI2.WinForms.Guna2Panel();
             this.imagenRegister = new Guna.UI2.WinForms.Guna2PictureBox();
             this.sombraformRegister = new Guna.UI2.WinForms.Guna2ShadowForm(this.components);
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.logoRegister)).BeginInit();
             this.pnlcontenedorDatosRegister.SuspendLayout();
             this.pnlcontenedorImagenRegister.SuspendLayout();
@@ -67,7 +68,7 @@
             this.dtpNacimiento_Register.FillColor = System.Drawing.Color.White;
             this.dtpNacimiento_Register.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpNacimiento_Register.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpNacimiento_Register.Location = new System.Drawing.Point(117, 525);
+            this.dtpNacimiento_Register.Location = new System.Drawing.Point(197, 522);
             this.dtpNacimiento_Register.MaxDate = new System.DateTime(2023, 10, 29, 0, 0, 0, 0);
             this.dtpNacimiento_Register.MinDate = new System.DateTime(1920, 1, 1, 0, 0, 0, 0);
             this.dtpNacimiento_Register.Name = "dtpNacimiento_Register";
@@ -125,7 +126,7 @@
             this.btnRegistrar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnRegistrar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnRegistrar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(158)))), ((int)(((byte)(242)))));
-            this.btnRegistrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999999F);
+            this.btnRegistrar.Font = new System.Drawing.Font("Satoshi", 9.75F);
             this.btnRegistrar.ForeColor = System.Drawing.Color.White;
             this.btnRegistrar.HoverState.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.btnRegistrar.Location = new System.Drawing.Point(131, 587);
@@ -148,7 +149,7 @@
             this.txtbxCheckPassword_Register.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtbxCheckPassword_Register.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(0)))), ((int)(((byte)(73)))));
             this.txtbxCheckPassword_Register.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtbxCheckPassword_Register.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999999F);
+            this.txtbxCheckPassword_Register.Font = new System.Drawing.Font("Satoshi", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtbxCheckPassword_Register.ForeColor = System.Drawing.Color.White;
             this.txtbxCheckPassword_Register.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(158)))), ((int)(((byte)(242)))));
             this.txtbxCheckPassword_Register.Location = new System.Drawing.Point(37, 463);
@@ -172,7 +173,7 @@
             this.txtbxPassword_Register.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtbxPassword_Register.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(0)))), ((int)(((byte)(73)))));
             this.txtbxPassword_Register.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtbxPassword_Register.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999999F);
+            this.txtbxPassword_Register.Font = new System.Drawing.Font("Satoshi", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtbxPassword_Register.ForeColor = System.Drawing.Color.White;
             this.txtbxPassword_Register.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(158)))), ((int)(((byte)(242)))));
             this.txtbxPassword_Register.Location = new System.Drawing.Point(37, 396);
@@ -196,7 +197,7 @@
             this.txbxNombre_Register.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txbxNombre_Register.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(0)))), ((int)(((byte)(73)))));
             this.txbxNombre_Register.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txbxNombre_Register.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999999F);
+            this.txbxNombre_Register.Font = new System.Drawing.Font("Satoshi", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbxNombre_Register.ForeColor = System.Drawing.Color.White;
             this.txbxNombre_Register.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(158)))), ((int)(((byte)(242)))));
             this.txbxNombre_Register.Location = new System.Drawing.Point(37, 195);
@@ -219,7 +220,7 @@
             this.txbxApellido_Register.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txbxApellido_Register.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(0)))), ((int)(((byte)(73)))));
             this.txbxApellido_Register.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txbxApellido_Register.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999999F);
+            this.txbxApellido_Register.Font = new System.Drawing.Font("Satoshi", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbxApellido_Register.ForeColor = System.Drawing.Color.White;
             this.txbxApellido_Register.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(158)))), ((int)(((byte)(242)))));
             this.txbxApellido_Register.Location = new System.Drawing.Point(37, 262);
@@ -242,7 +243,7 @@
             this.txbxCI_Register.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txbxCI_Register.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(0)))), ((int)(((byte)(73)))));
             this.txbxCI_Register.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txbxCI_Register.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999999F);
+            this.txbxCI_Register.Font = new System.Drawing.Font("Satoshi", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbxCI_Register.ForeColor = System.Drawing.Color.White;
             this.txbxCI_Register.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(158)))), ((int)(((byte)(242)))));
             this.txbxCI_Register.Location = new System.Drawing.Point(37, 128);
@@ -265,7 +266,7 @@
             this.txtbxNickname_Register.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtbxNickname_Register.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(0)))), ((int)(((byte)(73)))));
             this.txtbxNickname_Register.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtbxNickname_Register.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999999F);
+            this.txtbxNickname_Register.Font = new System.Drawing.Font("Satoshi", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtbxNickname_Register.ForeColor = System.Drawing.Color.White;
             this.txtbxNickname_Register.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(158)))), ((int)(((byte)(242)))));
             this.txtbxNickname_Register.Location = new System.Drawing.Point(37, 329);
@@ -279,6 +280,7 @@
             // pnlcontenedorDatosRegister
             // 
             this.pnlcontenedorDatosRegister.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(0)))), ((int)(((byte)(73)))));
+            this.pnlcontenedorDatosRegister.Controls.Add(this.label3);
             this.pnlcontenedorDatosRegister.Controls.Add(this.dtpNacimiento_Register);
             this.pnlcontenedorDatosRegister.Controls.Add(this.btnBack);
             this.pnlcontenedorDatosRegister.Controls.Add(this.btnRegistrar);
@@ -356,6 +358,17 @@
             this.sombraformRegister.ShadowColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(251)))), ((int)(((byte)(254)))));
             this.sombraformRegister.TargetForm = this;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Satoshi", 9.75F);
+            this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label3.Location = new System.Drawing.Point(47, 532);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(132, 16);
+            this.label3.TabIndex = 28;
+            this.label3.Text = "Fecha de nacimiento:";
+            // 
             // formRegister
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -395,5 +408,6 @@
         private Guna.UI2.WinForms.Guna2ControlBox btnExitRegister;
         private Guna.UI2.WinForms.Guna2PictureBox imagenRegister;
         private Guna.UI2.WinForms.Guna2ShadowForm sombraformRegister;
+        private System.Windows.Forms.Label label3;
     }
 }

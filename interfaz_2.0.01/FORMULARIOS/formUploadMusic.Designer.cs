@@ -94,7 +94,7 @@
             this.guna2GradientTileButton1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(85)))), ((int)(((byte)(157)))));
             this.guna2GradientTileButton1.Font = new System.Drawing.Font("Satoshi Medium", 12F, System.Drawing.FontStyle.Bold);
             this.guna2GradientTileButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientTileButton1.Location = new System.Drawing.Point(38, 483);
+            this.guna2GradientTileButton1.Location = new System.Drawing.Point(38, 500);
             this.guna2GradientTileButton1.Name = "guna2GradientTileButton1";
             this.guna2GradientTileButton1.Size = new System.Drawing.Size(661, 70);
             this.guna2GradientTileButton1.TabIndex = 29;
@@ -109,7 +109,7 @@
             this.guna2CheckBox2.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(33)))), ((int)(((byte)(67)))));
             this.guna2CheckBox2.Font = new System.Drawing.Font("Satoshi Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2CheckBox2.ForeColor = System.Drawing.Color.White;
-            this.guna2CheckBox2.Location = new System.Drawing.Point(276, 275);
+            this.guna2CheckBox2.Location = new System.Drawing.Point(276, 292);
             this.guna2CheckBox2.Name = "guna2CheckBox2";
             this.guna2CheckBox2.Size = new System.Drawing.Size(79, 24);
             this.guna2CheckBox2.TabIndex = 28;
@@ -128,7 +128,7 @@
             this.guna2CheckBox1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(33)))), ((int)(((byte)(67)))));
             this.guna2CheckBox1.Font = new System.Drawing.Font("Satoshi Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2CheckBox1.ForeColor = System.Drawing.Color.White;
-            this.guna2CheckBox1.Location = new System.Drawing.Point(187, 275);
+            this.guna2CheckBox1.Location = new System.Drawing.Point(187, 292);
             this.guna2CheckBox1.Name = "guna2CheckBox1";
             this.guna2CheckBox1.Size = new System.Drawing.Size(79, 24);
             this.guna2CheckBox1.TabIndex = 28;
@@ -146,7 +146,7 @@
             this.guna2ImageButton1.ImageOffset = new System.Drawing.Point(0, 0);
             this.guna2ImageButton1.ImageRotate = 0F;
             this.guna2ImageButton1.ImageSize = new System.Drawing.Size(35, 35);
-            this.guna2ImageButton1.Location = new System.Drawing.Point(38, 270);
+            this.guna2ImageButton1.Location = new System.Drawing.Point(38, 287);
             this.guna2ImageButton1.Name = "guna2ImageButton1";
             this.guna2ImageButton1.PressedState.ImageSize = new System.Drawing.Size(38, 38);
             this.guna2ImageButton1.Size = new System.Drawing.Size(35, 35);
@@ -160,7 +160,7 @@
             this.guna2ImageButton6.ImageOffset = new System.Drawing.Point(0, 0);
             this.guna2ImageButton6.ImageRotate = 0F;
             this.guna2ImageButton6.ImageSize = new System.Drawing.Size(35, 35);
-            this.guna2ImageButton6.Location = new System.Drawing.Point(38, 327);
+            this.guna2ImageButton6.Location = new System.Drawing.Point(38, 344);
             this.guna2ImageButton6.Name = "guna2ImageButton6";
             this.guna2ImageButton6.PressedState.ImageSize = new System.Drawing.Size(38, 38);
             this.guna2ImageButton6.Size = new System.Drawing.Size(35, 35);
@@ -171,7 +171,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Satoshi Medium", 12F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.SystemColors.Control;
-            this.label2.Location = new System.Drawing.Point(259, 335);
+            this.label2.Location = new System.Drawing.Point(259, 352);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(14, 20);
             this.label2.TabIndex = 26;
@@ -182,7 +182,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Satoshi Medium", 12F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.SystemColors.Control;
-            this.label3.Location = new System.Drawing.Point(74, 277);
+            this.label3.Location = new System.Drawing.Point(74, 294);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(92, 20);
             this.label3.TabIndex = 26;
@@ -193,7 +193,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Satoshi Medium", 12F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(74, 335);
+            this.label1.Location = new System.Drawing.Point(74, 352);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(179, 20);
             this.label1.TabIndex = 26;
@@ -216,7 +216,7 @@
             this.guna2TextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.guna2TextBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.Location = new System.Drawing.Point(38, 204);
+            this.guna2TextBox2.Location = new System.Drawing.Point(38, 221);
             this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2TextBox2.Name = "guna2TextBox2";
             this.guna2TextBox2.PasswordChar = '\0';
@@ -243,7 +243,7 @@
             this.guna2TextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.guna2TextBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Location = new System.Drawing.Point(38, 117);
+            this.guna2TextBox1.Location = new System.Drawing.Point(38, 134);
             this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PasswordChar = '\0';
@@ -270,7 +270,7 @@
             this.buscarMyMusic.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.buscarMyMusic.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.buscarMyMusic.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.buscarMyMusic.Location = new System.Drawing.Point(38, 30);
+            this.buscarMyMusic.Location = new System.Drawing.Point(38, 47);
             this.buscarMyMusic.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buscarMyMusic.Name = "buscarMyMusic";
             this.buscarMyMusic.PasswordChar = '\0';
@@ -316,7 +316,7 @@
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
             this.guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(33)))), ((int)(((byte)(67)))));
-            this.guna2DataGridView1.Location = new System.Drawing.Point(38, 372);
+            this.guna2DataGridView1.Location = new System.Drawing.Point(38, 389);
             this.guna2DataGridView1.Name = "guna2DataGridView1";
             this.guna2DataGridView1.ReadOnly = true;
             this.guna2DataGridView1.RowHeadersVisible = false;
@@ -400,7 +400,7 @@
             // 
             this.pictureBoxMostrarCancion_UploadMusica.BorderRadius = 10;
             this.pictureBoxMostrarCancion_UploadMusica.ImageRotate = 0F;
-            this.pictureBoxMostrarCancion_UploadMusica.Location = new System.Drawing.Point(399, 30);
+            this.pictureBoxMostrarCancion_UploadMusica.Location = new System.Drawing.Point(399, 47);
             this.pictureBoxMostrarCancion_UploadMusica.Name = "pictureBoxMostrarCancion_UploadMusica";
             this.pictureBoxMostrarCancion_UploadMusica.Size = new System.Drawing.Size(300, 300);
             this.pictureBoxMostrarCancion_UploadMusica.TabIndex = 0;

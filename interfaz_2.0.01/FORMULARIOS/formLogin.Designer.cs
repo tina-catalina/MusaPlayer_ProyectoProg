@@ -181,7 +181,7 @@
             this.btnLogin.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnLogin.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnLogin.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(158)))), ((int)(((byte)(242)))));
-            this.btnLogin.Font = new System.Drawing.Font("Satoshi Light", 8.999999F);
+            this.btnLogin.Font = new System.Drawing.Font("Satoshi", 9.75F);
             this.btnLogin.ForeColor = System.Drawing.Color.White;
             this.btnLogin.HoverState.Font = new System.Drawing.Font("Satoshi Light", 9.75F);
             this.btnLogin.Location = new System.Drawing.Point(131, 480);
@@ -204,7 +204,7 @@
             this.txtbxPassword.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtbxPassword.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(0)))), ((int)(((byte)(73)))));
             this.txtbxPassword.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtbxPassword.Font = new System.Drawing.Font("Satoshi", 8.999999F);
+            this.txtbxPassword.Font = new System.Drawing.Font("Satoshi", 9.75F);
             this.txtbxPassword.ForeColor = System.Drawing.Color.White;
             this.txtbxPassword.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(158)))), ((int)(((byte)(242)))));
             this.txtbxPassword.Location = new System.Drawing.Point(37, 378);
@@ -228,7 +228,7 @@
             this.txtbxNickname.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtbxNickname.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(0)))), ((int)(((byte)(73)))));
             this.txtbxNickname.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtbxNickname.Font = new System.Drawing.Font("Satoshi", 8.999999F);
+            this.txtbxNickname.Font = new System.Drawing.Font("Satoshi", 9.75F);
             this.txtbxNickname.ForeColor = System.Drawing.Color.White;
             this.txtbxNickname.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(158)))), ((int)(((byte)(242)))));
             this.txtbxNickname.Location = new System.Drawing.Point(37, 310);
