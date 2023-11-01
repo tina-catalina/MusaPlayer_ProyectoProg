@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace interfaz_2._0._01
 {
-    public partial class formSettings : Form
+    public partial class formPreferences : Form
     {
-        public formSettings()
+        public formPreferences()
         {
             InitializeComponent();
         }

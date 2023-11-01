@@ -1,6 +1,6 @@
 ﻿namespace interfaz_2._0._01
 {
-    partial class formMyProfile
+    partial class formCommunity
     {
         /// <summary>
         /// Required designer variable.

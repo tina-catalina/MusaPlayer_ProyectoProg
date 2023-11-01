@@ -41,12 +41,12 @@ namespace interfaz_2._0._01
 
         private void btnComunidad_Click(object sender, EventArgs e)
         {
-            OpenSelectedForm(new formMyProfile());
+            OpenSelectedForm(new formCommunity());
         }
 
         private void btnSetting_Click(object sender, EventArgs e)
         {
-            OpenSelectedForm(new formSettings());
+            OpenSelectedForm(new formPreferences());
         }
 
         private void btnExitRegister_Click(object sender, EventArgs e)
