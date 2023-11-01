@@ -41,8 +41,9 @@
             this.textboxEmail_Settings = new Guna.UI2.WinForms.Guna2TextBox();
             this.textboxLastName_Settings = new Guna.UI2.WinForms.Guna2TextBox();
             this.textboxName_Settings = new Guna.UI2.WinForms.Guna2TextBox();
-            this.txtbxPassword_Settings = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txtbxNewPassword_Settings = new Guna.UI2.WinForms.Guna2TextBox();
             this.labelNacimiento_Settings = new System.Windows.Forms.Label();
+            this.txxbxPassword_Settings = new Guna.UI2.WinForms.Guna2TextBox();
             this.gradienteEfecto_Settings.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureboxProfilePicture_Settings)).BeginInit();
             this.SuspendLayout();
@@ -60,7 +61,8 @@
             this.gradienteEfecto_Settings.Controls.Add(this.pictureboxProfilePicture_Settings);
             this.gradienteEfecto_Settings.Controls.Add(this.textboxNickname_Settings);
             this.gradienteEfecto_Settings.Controls.Add(this.dtpNacimientoSettings);
-            this.gradienteEfecto_Settings.Controls.Add(this.txtbxPassword_Settings);
+            this.gradienteEfecto_Settings.Controls.Add(this.txxbxPassword_Settings);
+            this.gradienteEfecto_Settings.Controls.Add(this.txtbxNewPassword_Settings);
             this.gradienteEfecto_Settings.Controls.Add(this.textboxEmail_Settings);
             this.gradienteEfecto_Settings.Controls.Add(this.textboxLastName_Settings);
             this.gradienteEfecto_Settings.Controls.Add(this.textboxName_Settings);
@@ -187,10 +189,10 @@
             // 
             this.pictureboxProfilePicture_Settings.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(2)))), ((int)(((byte)(154)))));
             this.pictureboxProfilePicture_Settings.ImageRotate = 0F;
-            this.pictureboxProfilePicture_Settings.Location = new System.Drawing.Point(377, 30);
+            this.pictureboxProfilePicture_Settings.Location = new System.Drawing.Point(418, 30);
             this.pictureboxProfilePicture_Settings.Name = "pictureboxProfilePicture_Settings";
             this.pictureboxProfilePicture_Settings.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.pictureboxProfilePicture_Settings.Size = new System.Drawing.Size(250, 250);
+            this.pictureboxProfilePicture_Settings.Size = new System.Drawing.Size(190, 190);
             this.pictureboxProfilePicture_Settings.TabIndex = 32;
             this.pictureboxProfilePicture_Settings.TabStop = false;
             // 
@@ -320,32 +322,32 @@
             this.textboxName_Settings.Size = new System.Drawing.Size(242, 44);
             this.textboxName_Settings.TabIndex = 5;
             // 
-            // txtbxPassword_Settings
+            // txtbxNewPassword_Settings
             // 
-            this.txtbxPassword_Settings.BackColor = System.Drawing.Color.Transparent;
-            this.txtbxPassword_Settings.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(0)))), ((int)(((byte)(73)))));
-            this.txtbxPassword_Settings.BorderRadius = 20;
-            this.txtbxPassword_Settings.BorderThickness = 0;
-            this.txtbxPassword_Settings.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtbxPassword_Settings.DefaultText = "";
-            this.txtbxPassword_Settings.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtbxPassword_Settings.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtbxPassword_Settings.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtbxPassword_Settings.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtbxPassword_Settings.FillColor = System.Drawing.Color.GhostWhite;
-            this.txtbxPassword_Settings.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtbxPassword_Settings.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.txtbxPassword_Settings.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.txtbxPassword_Settings.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtbxPassword_Settings.Location = new System.Drawing.Point(392, 296);
-            this.txtbxPassword_Settings.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtbxPassword_Settings.Name = "txtbxPassword_Settings";
-            this.txtbxPassword_Settings.PasswordChar = '\0';
-            this.txtbxPassword_Settings.PlaceholderForeColor = System.Drawing.Color.DimGray;
-            this.txtbxPassword_Settings.PlaceholderText = "Contraseña";
-            this.txtbxPassword_Settings.SelectedText = "";
-            this.txtbxPassword_Settings.Size = new System.Drawing.Size(242, 44);
-            this.txtbxPassword_Settings.TabIndex = 8;
+            this.txtbxNewPassword_Settings.BackColor = System.Drawing.Color.Transparent;
+            this.txtbxNewPassword_Settings.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(0)))), ((int)(((byte)(73)))));
+            this.txtbxNewPassword_Settings.BorderRadius = 20;
+            this.txtbxNewPassword_Settings.BorderThickness = 0;
+            this.txtbxNewPassword_Settings.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtbxNewPassword_Settings.DefaultText = "";
+            this.txtbxNewPassword_Settings.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtbxNewPassword_Settings.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtbxNewPassword_Settings.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtbxNewPassword_Settings.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtbxNewPassword_Settings.FillColor = System.Drawing.Color.GhostWhite;
+            this.txtbxNewPassword_Settings.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtbxNewPassword_Settings.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.txtbxNewPassword_Settings.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtbxNewPassword_Settings.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtbxNewPassword_Settings.Location = new System.Drawing.Point(392, 296);
+            this.txtbxNewPassword_Settings.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtbxNewPassword_Settings.Name = "txtbxNewPassword_Settings";
+            this.txtbxNewPassword_Settings.PasswordChar = '\0';
+            this.txtbxNewPassword_Settings.PlaceholderForeColor = System.Drawing.Color.DimGray;
+            this.txtbxNewPassword_Settings.PlaceholderText = "Nueva contraseña";
+            this.txtbxNewPassword_Settings.SelectedText = "";
+            this.txtbxNewPassword_Settings.Size = new System.Drawing.Size(242, 44);
+            this.txtbxNewPassword_Settings.TabIndex = 8;
             // 
             // labelNacimiento_Settings
             // 
@@ -358,6 +360,33 @@
             this.labelNacimiento_Settings.TabIndex = 35;
             this.labelNacimiento_Settings.Text = "Fecha de\r\nnacimiento:\r\n";
             this.labelNacimiento_Settings.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // txxbxPassword_Settings
+            // 
+            this.txxbxPassword_Settings.BackColor = System.Drawing.Color.Transparent;
+            this.txxbxPassword_Settings.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(0)))), ((int)(((byte)(73)))));
+            this.txxbxPassword_Settings.BorderRadius = 20;
+            this.txxbxPassword_Settings.BorderThickness = 0;
+            this.txxbxPassword_Settings.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txxbxPassword_Settings.DefaultText = "";
+            this.txxbxPassword_Settings.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txxbxPassword_Settings.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txxbxPassword_Settings.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txxbxPassword_Settings.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txxbxPassword_Settings.FillColor = System.Drawing.Color.GhostWhite;
+            this.txxbxPassword_Settings.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txxbxPassword_Settings.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.txxbxPassword_Settings.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txxbxPassword_Settings.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txxbxPassword_Settings.Location = new System.Drawing.Point(392, 235);
+            this.txxbxPassword_Settings.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txxbxPassword_Settings.Name = "txxbxPassword_Settings";
+            this.txxbxPassword_Settings.PasswordChar = '\0';
+            this.txxbxPassword_Settings.PlaceholderForeColor = System.Drawing.Color.DimGray;
+            this.txxbxPassword_Settings.PlaceholderText = "Contraseña actual";
+            this.txxbxPassword_Settings.SelectedText = "";
+            this.txxbxPassword_Settings.Size = new System.Drawing.Size(242, 44);
+            this.txxbxPassword_Settings.TabIndex = 8;
             // 
             // formPreferences
             // 
@@ -391,6 +420,7 @@
         private Guna.UI2.WinForms.Guna2GradientTileButton btnCreateBackUp_Settings;
         private Guna.UI2.WinForms.Guna2GradientTileButton btnChangePicture_Settings;
         private System.Windows.Forms.Label labelNacimiento_Settings;
-        private Guna.UI2.WinForms.Guna2TextBox txtbxPassword_Settings;
+        private Guna.UI2.WinForms.Guna2TextBox txtbxNewPassword_Settings;
+        private Guna.UI2.WinForms.Guna2TextBox txxbxPassword_Settings;
     }
 }
