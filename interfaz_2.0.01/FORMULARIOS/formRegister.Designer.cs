@@ -43,12 +43,12 @@
             this.txbxCI_Register = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtbxNickname_Register = new Guna.UI2.WinForms.Guna2TextBox();
             this.pnlcontenedorDatosRegister = new Guna.UI2.WinForms.Guna2Panel();
+            this.label3 = new System.Windows.Forms.Label();
             this.btnMinimizeRegister = new Guna.UI2.WinForms.Guna2ControlBox();
             this.btnExitRegister = new Guna.UI2.WinForms.Guna2ControlBox();
             this.pnlcontenedorImagenRegister = new Guna.UI2.WinForms.Guna2Panel();
             this.imagenRegister = new Guna.UI2.WinForms.Guna2PictureBox();
             this.sombraformRegister = new Guna.UI2.WinForms.Guna2ShadowForm(this.components);
-            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.logoRegister)).BeginInit();
             this.pnlcontenedorDatosRegister.SuspendLayout();
             this.pnlcontenedorImagenRegister.SuspendLayout();
@@ -233,6 +233,7 @@
             // 
             // txbxCI_Register
             // 
+            this.txbxCI_Register.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.txbxCI_Register.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.txbxCI_Register.BorderRadius = 6;
             this.txbxCI_Register.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -253,7 +254,7 @@
             this.txbxCI_Register.SelectedText = "";
             this.txbxCI_Register.Size = new System.Drawing.Size(320, 36);
             this.txbxCI_Register.TabIndex = 21;
-            // 
+
             // txtbxNickname_Register
             // 
             this.txtbxNickname_Register.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
@@ -297,6 +298,17 @@
             this.pnlcontenedorDatosRegister.Name = "pnlcontenedorDatosRegister";
             this.pnlcontenedorDatosRegister.Size = new System.Drawing.Size(394, 660);
             this.pnlcontenedorDatosRegister.TabIndex = 28;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Satoshi", 9.75F);
+            this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label3.Location = new System.Drawing.Point(47, 532);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(132, 16);
+            this.label3.TabIndex = 28;
+            this.label3.Text = "Fecha de nacimiento:";
             // 
             // btnMinimizeRegister
             // 
@@ -357,17 +369,6 @@
             this.sombraformRegister.BorderRadius = 10;
             this.sombraformRegister.ShadowColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(251)))), ((int)(((byte)(254)))));
             this.sombraformRegister.TargetForm = this;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Satoshi", 9.75F);
-            this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label3.Location = new System.Drawing.Point(47, 532);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(132, 16);
-            this.label3.TabIndex = 28;
-            this.label3.Text = "Fecha de nacimiento:";
             // 
             // formRegister
             // 
