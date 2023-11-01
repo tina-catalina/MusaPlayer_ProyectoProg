@@ -56,11 +56,20 @@ namespace interfaz_2._0._01
             Application.Exit();
         }
 
-        private void guna2Button1_Click(object sender, EventArgs e)
+        private void btnCerrarSesion_Main_Click(object sender, EventArgs e)
         {
             // logica para cerrar la sesion, falta la meesagebox para comprobar si quiere irse o no.
+
+            DialogResult dialogResult = MessageBox.Show("Seguro quieres irte?", "Cerrar Sesion", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
+            {
+
             new formLogin().Show();
             this.Close();
+
+            }
+
+
         }
 
         private void formMain_Load(object sender, EventArgs e)
@@ -74,9 +83,14 @@ namespace interfaz_2._0._01
 
         }
 
-        private void guna2ImageButton1_Click(object sender, EventArgs e)
+        private void btnCerrarFormulario_Main_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            DialogResult dialogResult =  MessageBox.Show("Seguro quieres irte?", "Salir", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
+            {
+
+                Application.Exit();
+            }
 
         }
     }

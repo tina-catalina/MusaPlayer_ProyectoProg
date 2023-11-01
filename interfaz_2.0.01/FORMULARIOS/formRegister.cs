@@ -30,7 +30,13 @@ namespace interfaz_2._0._01
 
         private void btnExitRegister_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+
+            DialogResult dialogResult = MessageBox.Show("Seguro quieres irte?", "Salir", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
+            {
+
+                Application.Exit();
+            }
         }
     }
 }

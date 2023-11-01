@@ -111,7 +111,7 @@
             this.btnCerrarSesion_Main.TabIndex = 28;
             this.btnCerrarSesion_Main.Text = "Cerrar sesión";
             this.btnCerrarSesion_Main.UseTransparentBackground = true;
-            this.btnCerrarSesion_Main.Click += new System.EventHandler(this.guna2Button1_Click);
+            this.btnCerrarSesion_Main.Click += new System.EventHandler(this.btnCerrarSesion_Main_Click);
             // 
             // btnSetting
             // 
@@ -266,7 +266,7 @@
             this.btnCerrarFormulario_Main.Size = new System.Drawing.Size(30, 30);
             this.btnCerrarFormulario_Main.TabIndex = 0;
             this.btnCerrarFormulario_Main.UseTransparentBackground = true;
-            this.btnCerrarFormulario_Main.Click += new System.EventHandler(this.guna2ImageButton1_Click);
+            this.btnCerrarFormulario_Main.Click += new System.EventHandler(this.btnCerrarFormulario_Main_Click);
             // 
             // pnlcontenedorControlBox_Main
             // 
